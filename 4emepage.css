@@ -1,0 +1,58 @@
+.flexboxp{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.flexbox{
+    display:flex ;
+    flex-direction: column;
+    width:300px;
+    flex :1
+   
+}
+.autoimagediv{
+    width:290px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.fb2{
+    display:flex;
+    flex-direction: row;
+    width:300px;
+    
+}
+.text{
+    text-align: left;
+    text-transform: capitalize;
+}
+.duré{
+ font-weight: bold;
+}
+.type{
+ font-weight: bolder;
+}
+.image2{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.input_style1{
+   width: 500px; 
+   border:none;
+   border-radius: 250px;
+   margin-bottom: 80px;
+}
+.searchbutton{
+height: 20px;
+cursor: pointer;
+align-items:first baseline;
+border:none;
+background-color: #32bad8 ;
+
+}
+.top_of_the_page{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    margin-left: 50px;
+}

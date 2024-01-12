@@ -1,0 +1,84 @@
+.App {
+  background-color: #32bad8;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  min-height: 100vh;
+  align-items: center;
+}
+.connexion{
+  flex : 2;
+  display:flex;
+  align-items: end;
+  font-size:  calc(25px + 2vmin);
+  font-weight:bold;
+  color:white;
+  text-transform: capitalize;
+}
+.input{
+  flex:1;
+ 
+  }
+.input_style{
+ height: 35px; 
+ font-size: 15px;
+ width: 300px;
+ border:none;
+ border-radius: 5px;
+ display: block;
+ margin-top: 20px;
+}
+.buton{
+  flex:1;
+  margin:0px;
+}
+.button{
+  border:none;
+  height: 45px; 
+  width: 300px;
+  border-radius: 5px;
+  font-size:  calc(10px + 2vmin);
+  color:white;
+  background-color: rgb(213, 133, 222);
+  cursor: pointer;
+}
+.button:hover{
+opacity: 0.8;
+}
+.button:active{
+  opacity: 0.3;
+}
+
+
+.App-header {
+  background-color: #32bad8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: transparent; /* Rend le texte transparent */
+  cursor: pointer; /* Affiche le curseur comme un pointeur au survol */
+}
